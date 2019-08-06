@@ -1,8 +1,6 @@
 """ 
 UNIT TRANSFORMATIONS
 Just a bunch of functions for quick unit transformations.
-Author: Fede LA
-2019
 """
 def cctk2cgs(cctk, unit, M=1):
 	"""Converts cctk quantity to cgs, for a given mass scale M

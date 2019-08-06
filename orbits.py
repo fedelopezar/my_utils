@@ -1,7 +1,6 @@
 """ 
 BASIC ORBIT PARAMETERS
 Just a bunch of functions for quick annalysis of orbit properties.
-2019
 """
 
 import numpy as np
