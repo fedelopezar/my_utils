@@ -155,4 +155,7 @@ def cgs2natural(cgs,unit):
 		print("ERROR: Unknown unit.")
 		return
 	return natural
-	
+
+def ly2pc(ly):
+	pc = ly * 0.306601
+	return pc	
