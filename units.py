@@ -158,4 +158,10 @@ def cgs2natural(cgs,unit):
 
 def ly2pc(ly):
 	pc = ly * 0.306601
-	return pc	
+	return pc
+
+def z2Mpc( z ):
+    vel = z * 3e10
+    H = 65e6
+    distance = vel / H
+    return distance
